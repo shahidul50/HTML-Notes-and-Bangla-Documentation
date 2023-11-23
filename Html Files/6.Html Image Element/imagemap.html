@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map </title>
+</head>
+<body>
+    <!--* HTML <map> ব্যবহার করা হয় কোন Image এর মধ্যে Clickable area তৈরি করার জন্য। আর একাধিক Clickable Area তৈরি করার জন্য <area> Tag ব্যবহার করতে পারি।  -->
+    <!--? Image map তৈরি করার জন্য <img> Tag এর মধ্যে usemap Attibute ব্যবহার করতে হবে। usemap এর মানটি একটি হ্যাশ ট্যাগ(#) দিয়ে শুরু হয় যার পরে Image Map এর নাম থাকে এবং Image ও Image Map এর মধ্যে সম্পর্ক তৈরি করতে ব্যবহৃত হয়। এরপরে <map> Tag এর মধ্যে name Attibute ব্যবহার করে Map এর একটি নাম দিতে হবে।   -->
+
+     <!--* for react coords: left-margin,top, left-margin, top  -->
+     <!--* for circle coords: center of the circle(width,height), circle-radius -->
+     <!--* for poly coords: 1st coords(x,y),2nd coords(x,y) ..... -->
+    <img src="./b.png" alt="Workplace" usemap="#workmap" height="300px" width="400px">
+
+    <map name="workmap">
+      <!-- <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"> -->
+      <area shape="circle" coords="190,300,120" alt="Coffee" href="download.html">
+    </map>
+</body>
+</html>

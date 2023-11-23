@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form Element</title>
+    <style>
+       h2{
+        color:darkred;
+       }
+    </style>
+</head>
+<body>
+    <hr>
+    <h2>Form Element (<i>input type = text</i>)</h2>
+    <hr>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+      </form>
+      <!-- ***********-->
+    <hr>
+    <h2>Form Element (<i>input type = text</i>) With <i>placeholder</i> Attribute</h2>
+    <hr>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="enter your firstname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="enter your lastname"><br>
+      </form>
+      <!-- ***********-->
+
+    <hr>
+    <h2>Form Element (<i>input type = text</i>) With <i>disabled</i> Attribute</h2>
+    <hr>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="enter your firstname" disabled><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="enter your lastname" disabled><br>
+      </form>
+      <!-- ***********-->
+
+    <hr>
+    <h2>Form Element (<i>input type = text</i>) With <i>maxLength</i> Attribute</h2>
+    <hr>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="enter your firstname" maxlength="5"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="enter your lastname" maxLength="3"><br>
+      </form>
+      <!-- ***********-->
+
+    <hr>
+    <h2>Form Element (<i>input type = text</i>) With <i>readonly</i> Attribute</h2>
+    <hr>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Shahidul" readonly><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Islam"readonly><br>
+      </form>
+      <!-- ***********-->
+
+    <hr>
+    <h2>Form Element (<i>input type = text</i>) With <i>size</i> Attribute</h2>
+    <hr>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"  placeholder="enter your firstname" size="30"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" size="30" placeholder="enter your lastname"><br>
+      </form>
+      <!-- ***********-->
+
+    <hr>
+    <h2>Form Element (<i>input type = text</i>) With <i>required</i> Attribute</h2>
+    <hr>
+    <form action="#">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="enter your firstname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="enter your lastname" required><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <!-- ***********-->
+
+    <hr>
+    <h2>Form Element (<i>input type = text</i>) With <i>autofocus</i> Attribute</h2>
+    <hr>
+    <form action="#">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="enter your firstname" required autofocus><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="enter your lastname" required><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = password</i>)</h2>
+      <hr>
+      <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = email</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required>
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = email</i>) With <i>multiple</i> Attribute</h2>
+      <hr>
+      <form action="#">
+        <label for="email">Enter multiple email:</label>
+        <input type="email" id="email" name="email" required multiple>
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = radio</i>)</h2>
+      <hr>
+      <form>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = radio</i>) with <i>checked</i> Attribute</h2>
+      <hr>
+      <form>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+      </form>
+        <!-- ***********-->
+
+    <hr>
+    <h2>Form Element (<i>input type = checkbox</i>)</h2>
+    <hr>
+    <form>
+        <label>Select your favourite Subjects </label><br>
+        <input type="checkbox" id="bangla" name="subject1" value="bangla">
+        <label for="bangla">Bangla</label><br>
+        <input type="checkbox" id="english" name="subject2" value="english">
+        <label for="english">English</label><br>
+        <input type="checkbox" id="math" name="subject3" value="math">
+        <label for="math">Math</label>
+    </form>
+        <!-- ***********-->
+
+    <hr>
+    <h2>Form Element (<i>input type = checkbox</i>) With <i>checked</i> Attribute</h2>
+    <hr>
+    <form>
+        <label>Select your favourite Subjects </label><br>
+        <input type="checkbox" id="bangla" name="bangla" value="bangla" checked>
+        <label for="bangla">Bangla</label><br>
+        <input type="checkbox" id="english" name="english" value="english" checked>
+        <label for="english">English</label><br>
+        <input type="checkbox" id="math" name="math" value="math" checked>
+        <label for="math">Math</label><br>
+        <input type="checkbox" id="physics" name="physics" value="physics">
+        <label for="physics">Physics</label><br>
+        <input type="checkbox" id="chemistry " name="chemistry" value="chemistry">
+        <label for="chemistry">Chemistry </label><br>
+        <input type="checkbox" id="biology" name="biology" value="biology">
+        <label for="math">Biology</label>
+    </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element Dropdownlist(<i>select</i> and <i>option</i> Element)</h2>
+      <hr>
+      <form >
+        <label for="colors">Choose a color:</label>
+        <select id="colors" name="colors">
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+          <option value="black">Black</option>
+          <option value="white">White</option>
+        </select>
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element Dropdownlist(<i>select</i> and <i>option</i> Element) With <i>selected</i> Attribute</h2>
+      <hr>
+      <form >
+        <label for="colors">Choose a color:</label>
+        <select id="colors" name="colors">
+          <option value="red">Red</option>
+          <option value="blue" >Blue</option>
+          <option value="green">Green</option>
+          <option value="black" selected>Black</option>
+          <option value="white">White</option>
+        </select>
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element Dropdownlist(<i>select</i> and <i>option</i> Element) With <i>size</i> Attribute</h2>
+      <hr>
+      <form >
+        <label for="colors">Choose a color:</label>
+        <select id="colors" name="colors" size='3'>
+          <option value="red">Red</option>
+          <option value="blue" >Blue</option>
+          <option value="green">Green</option>
+          <option value="black">Black</option>
+          <option value="white">White</option>
+        </select>
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element Dropdownlist(<i>select</i> and <i>option</i> Element) With <i>multiple</i> Attribute</h2>
+      <hr>
+      <h3>Press <code>ctrl </code> then Select</h3>
+      <form >
+        <label for="colors">Choose a color:</label>
+        <select id="colors" name="colors" size='3' multiple>
+          <option value="red">Red</option>
+          <option value="blue" >Blue</option>
+          <option value="green">Green</option>
+          <option value="black">Black</option>
+          <option value="white">White</option>
+        </select>
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element Dropdownlist(<i>select</i> and <i>option</i> Element) With <i>optgroup</i> Element</h2>
+      <hr>
+      <form>
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+          <optgroup label="Swedish Cars" disabled>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+          </optgroup>
+          <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </optgroup>
+        </select>
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element with <i>TextArea</i> Element</h2>
+      <hr>
+      <form >
+        <label for="message">Message</label><br>
+        <textarea name="message" rows="10" cols="40"> </textarea>
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element with <i>Data List</i> Element</h2>
+      <hr>
+      <form>
+        <label for="browser">Write your Favourite Browser Name</label>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element with <i>Fieldset</i> and <i>Legend</i> Element</h2>
+      <hr>
+      <form action="#">
+        <fieldset>
+          <legend>Personal:</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="Shahidul"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Islam"><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = file</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = file</i>) With <i>multiple</i> Attribute </h2>
+      <hr>
+      <form action="#">
+        <label for="myfile">Select Multiple files:</label>
+        <input type="file" id="myfile" name="myfile" multiple><br><br>
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = hidden</i>)</h2>
+      <hr>
+      <h3>Here custId Value are hidden</h3>
+      <form action="#">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <input type="hidden" id="custId" name="custId" value="3487">
+       <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = number</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" name="quantity">
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = number</i>) With <i>min</i> and <i>max</i> Attribute</h2>
+      <hr>
+      <form action="#">
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = number</i>) With <i>step</i> Attribute</h2>
+      <hr>
+      <form action="#">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="100" step="10">
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Button Element</h2>
+      <hr>
+      <button type="button">Click Me!</button>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = submit</i>)</h2>
+      <hr>
+      <form action="#" target="_blank" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="enter your firstname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="enter your lastname" required><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <label>Select your favourite Subjects: </label><br>
+        <input type="checkbox" id="bangla" name="subject1" value="bangla">
+        <label for="bangla">Bangla</label><br>
+        <input type="checkbox" id="english" name="subject2" value="english">
+        <label for="english">English</label><br>
+        <input type="checkbox" id="math" name="subject3" value="math">
+        <label for="math">Math</label><br>
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = reset</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = tel</i>) With <i>pattern</i> Attribute</h2>
+      <hr>
+      <form action="#">
+        <label for="phone">Enter a phone number:</label><br><br>
+        <input type="tel" id="phone" name="phone" value='+880' pattern="\+[0-9]{13}" required><br><br>
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = range</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="vol">Volume:</label>
+        <input type="range" id="vol" name="vol">
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = range</i>) With <i>min</i>, <i>max</i> and <i>step</i> Attribute</h2>
+      <hr>
+      <form action="#">
+        <label for="vol">Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50" step="10">
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = url</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="fb">Add your Facebook URL:</label>
+        <input type="url" id="fb" name="fb">
+        <input type="submit" value="Submit">
+      </form>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = date</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit" value="Submit">
+      </form>
+      <p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11.</p>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = date</i>) With <i>min</i> and <i>max</i> Attribute</h2>
+      <hr>
+			<form action="#">
+			  <label for="datemin">Enter a date after 2000-01-01:</label>
+			  <input type="date" id="datemin" name="datemin" min="2000-01-02" required><br><br>
+			
+			  <label for="datemax">Enter a date before 1980-01-01:</label>
+			  <input type="date" id="datemax" name="datemax" max="1979-12-31" required><br><br>
+			  
+			  <input type="submit" value="Submit">
+			</form>
+      <p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11.</p>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = time</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+        <input type="submit" value="Submit">
+      </form>
+      <p><strong>Note:</strong> type="time" is not supported in Internet Explorer 11.</p>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = datetime-local</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime" required>
+        <input type="submit" value="Submit">
+      </form>
+      <p><strong>Note:</strong> type="datetime-local" is not supported in Internet Explorer 11.</p>
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = color</i>)</h2>
+      <hr>
+      <form>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <input type="submit" value="Submit">
+      </form>
+      
+      <p><b>Note:</b> type="color" is not supported in Internet Explorer 11.</p>
+      
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = image</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="fname">First name: </label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Last name: </label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <input type="image" src="./img_submit.gif" alt="Submit" width="48" height="48">
+      </form>
+      <p><b>Note:</b> The input type="image" sends the X and Y coordinates of the click that activated the image button.</p>
+      
+        <!-- ***********-->
+
+      <hr>
+      <h2>Form Element (<i>input type = search</i>)</h2>
+      <hr>
+      <form action="#">
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+      </form>
+      
+        <!-- ***********-->
+
+</body>
+</html>
