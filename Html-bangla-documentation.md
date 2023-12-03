@@ -409,13 +409,13 @@
     HTML **`<kbd>`** Tag ব্যবহার করা হয় Keyboard এর Input Define করতে। অর্থাৎ আমরা যদি Website এ কোন keyboard Shortcut লিখতে চাই সেক্ষেত্রে এটা ব্যবহার করব। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    		<h1>The kbd element</h1>
-    		<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <body>
+       <h1>The kbd element</h1>
+       <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+     </body>
+   </html>
     ```
     
     HTML **`<code>`** Tag ব্যবহার করা হয় Computer Code অংশকে Define করতে। অর্থাৎ আমরা যদি Website এ কোন Programming Code লিখতে চাই সেইক্ষেত্রে এটা ব্যবহার করব। Example:
@@ -451,26 +451,26 @@
     HTML **`<samp>`** Tag ব্যবহার করা হয় Computer Code এর Output অংশকে Define করতে। 
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    		<h2>The samp Element</h2>
-    		<p>Message from my computer:</p>
-    		<p><samp>File not found.<br>Press F1 to continue</samp></p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <body>
+       <h2>The samp Element</h2>
+       <p>Message from my computer:</p>
+       <p><samp>File not found.<br>Press F1 to continue</samp></p>
+     </body>
+   </html>
     ```
     
     HTML **`<var>`** Tag ব্যবহার করা হয় Computer Programming অথবা Mathematical Expression এর মধ্যে Variable Define করতে। 
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    		<h2>The var Element</h2>
-    		<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <body>
+       <h2>The var Element</h2>
+       <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+     </body>
+   </html>
     ```
     
     ---
@@ -480,71 +480,71 @@
     HTML **`<blockquote>`** Element এর মাধ্যমে আমরা আমাদের Web Site এ, Another Web Site থেকে কোন  Text ব্যবহার করলে সেটার Source নির্দিষ্ট করে দিতে ব্যবহার করা হয়। **`cite`** Attribute এর মাধ্যমে আমরা Source টি দিয়ে দিতে পারি। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    			<p>Here is a quote from WWF's website:</p>
-    			<blockquote cite="http://www.worldwildlife.org/who/index.html">
-    			      For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
-    			</blockquote>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <body>
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+              For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+        </blockquote>
+     </body>
+   </html>
     ```
     
     HTML **`<q>`** Element এর মাধ্যমে আমরা HTML Element Text এর মধ্যে Quotation Mark ব্যবহার করতে পারি। Example: 
     
     ```html
-    <!DOCTYPE html>
-    <html>
-      <body>
-    	   <p>Browsers usually insert quotation marks around the q element.</p>
-    	   <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
-     </body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <body>
+       <p>Browsers usually insert quotation marks around the q element.</p>
+       <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+    </body>
+   </html>
     ```
     
     HTML **`<abbr>`** Element দ্বারা আমরা Abbreviation Word(like HTML, CSS, Dr. ইত্যাদি) এর সম্পূর্ণ Text কে Title আকারে দেখাতে পারি। এখানে **`title`** Attribute এর মাধ্যমে আমরা সম্পূর্ণ Text টি দিতে পারি। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    			<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
-    			<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <body>
+       <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+       <p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+     </body>
+   </html>
     ```
     
     HTML **`<address>`** Element এর মাধ্যমে আমরা কোন Document অথবা Article Owner এর Contact Information দিতে পারি। Contact Information হতে পারে Email Address, URL, Physical Address, Phone Number, Social Media ইত্যাদি। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    			<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
-    			<address>
-    				Written by John Doe.<br> 
-    				Visit us at:<br>
-    				Example.com<br>
-    				Box 564, Disneyland<br>
-    				USA
-    			</address>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <body>
+        <p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+        <address>
+         Written by John Doe.<br> 
+         Visit us at:<br>
+         Example.com<br>
+         Box 564, Disneyland<br>
+         USA
+        </address>
+     </body>
+   </html>
     ```
     
     HTML **`<cite>`** Element এর মাধ্যমে আমরা একটি Creative Work(a book, a painting, a song ইত্যাদি) এর Title নির্দিষ্ট করতে পারি। Browser মূলত cite Element text কে Italic করে দেয়। Example:  
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    			<p>The HTML cite element defines the title of a work.</p>
-    			<p>Browsers usually display cite elements in italic.</p>
-    			<img src="./img_the_scream.jpg" width="220" height="277" alt="The Scream">
-    			<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <body>
+        <p>The HTML cite element defines the title of a work.</p>
+        <p>Browsers usually display cite elements in italic.</p>
+        <img src="./img_the_scream.jpg" width="220" height="277" alt="The Scream">
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+     </body>
+   </html>
     ```
     
     > 💡 <ins>***Note:***</ins> একজন ব্যক্তির নাম একটি কাজের শিরোনাম হবে না।
@@ -605,12 +605,12 @@
     
     ```html
     <h2>Absolute URLs</h2>
-    <p><a href="https://www.facebook.com/">Facebook</a></p>
-    <p><a href="https://www.google.com/">Google</a></p>
+      <p><a href="https://www.facebook.com/">Facebook</a></p>
+      <p><a href="https://www.google.com/">Google</a></p>
     
     <h2>Relative URLs</h2>
-    <p><a href="home.asp">Home Page</a></p>
-    <p><a href="./css/default.asp">CSS Tutorial</a></p>
+      <p><a href="home.asp">Home Page</a></p>
+      <p><a href="./css/default.asp">CSS Tutorial</a></p>
     ```
     
     আমরা চাইলে **`href`** Attribute এর মাধ্যে **`mailto:`** এর মাধ্যমে User এর Email Program খোলার একটা Link তৈরি করে দিতে পারি। Example: 
@@ -636,83 +636,83 @@
     Bookmark করা দরকারি হয়ে পড়ে তখন, যখন একটা Web Page অনেক লম্বা হয়ে থাকে। Bookmark তৈরি করতে - প্রথমে Bookmark টি তৈরি করতে হবে তারপর Link যুক্ত করতে হবে। যখন User Link এ Click করবে তখন Web Page টি Jump করে Bookmark অনুযায়ী নিচে বা উপরে Scroll করবে। Bookmark করার জন্য আমরা Always HTML Element এ **`id`** Attribute ব্যবহার করব। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    			<p><a href="#C4">Jump to Chapter 4</a></p>
-    			<p><a href="#C10">Jump to Chapter 10</a></p>
-    			<p><a href="#C17">Jump to Chapter 17</a></p>
-    			
-    			<h2>Chapter 1</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 2</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 3</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2 id="C4">Chapter 4</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 5</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 6</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 7</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 8</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 9</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2 id="C10">Chapter 10</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 11</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 12</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 13</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 14</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 15</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 16</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2 id="C17">Chapter 17</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 18</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 19</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 20</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 21</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 22</h2>
-    			<p>This chapter explains ba bla bla</p>
-    			
-    			<h2>Chapter 23</h2>
-    			<p>This chapter explains ba bla bla</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <body>
+         <p><a href="#C4">Jump to Chapter 4</a></p>
+         <p><a href="#C10">Jump to Chapter 10</a></p>
+         <p><a href="#C17">Jump to Chapter 17</a></p>
+         
+         <h2>Chapter 1</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 2</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 3</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2 id="C4">Chapter 4</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 5</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 6</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 7</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 8</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 9</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2 id="C10">Chapter 10</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 11</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 12</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 13</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 14</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 15</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 16</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2 id="C17">Chapter 17</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 18</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 19</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 20</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 21</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 22</h2>
+         <p>This chapter explains ba bla bla</p>
+         
+         <h2>Chapter 23</h2>
+         <p>This chapter explains ba bla bla</p>
+     </body>
+   </html>
     ```
     
     ---
@@ -779,29 +779,29 @@
     HTML **`<picture>`** Element Web Developer কে Image Resource নির্দিষ্ট করতে Flexibility দিয়ে থাকে। **`<picture>`** Element টি এক বা একাধিক **`<source>`** Elements ধারণ করতে পারে এবং **`<source>`** Element এর মধ্যে **`srcset`** Attribute এর মাধ্যমে আমরা Images গুলোর Path/URL দিয়ে দিতে পারি এবং **`media`** Attribute এর মাধ্যমে আমরা Device এর Width Select করে দিতে পারি যাতে করে Device এর Width অনুসারে Image গুলো Browser Choose করে Display করতে পারে। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<head>
-    			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	</head>
-    	<body>
-          <h2>The picture Element</h2>
-    			<picture>
-    			  <source media="(min-width: 650px)" srcset="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600">
-    			  <source media="(min-width: 465px)" srcset="https://images.pexels.com/photos/1805053/pexels-photo-1805053.jpeg?auto=compress&cs=tinysrgb&w=600">
-    			  <img src="https://images.pexels.com/photos/2565222/pexels-photo-2565222.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:auto;">
-    			</picture>
-    			<p>Resize the browser to see different versions of the picture loading at different viewport sizes.
-    			The browser looks for the first source element where the media query matches the user's current viewport width,
-    			and fetches the image specified in the srcset attribute.</p>
-    
-    			<p>The img element is required as the last child tag of the picture declaration block.
-    			The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
-    			</p>
-    			
-    			<p><strong>Note:</strong> The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier.</p>
+   <!DOCTYPE html>
+   <html>
+     <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     </head>
+     <body>
+         <h2>The picture Element</h2>
+         <picture>
+           <source media="(min-width: 650px)" srcset="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600">
+           <source media="(min-width: 465px)" srcset="https://images.pexels.com/photos/1805053/pexels-photo-1805053.jpeg?auto=compress&cs=tinysrgb&w=600">
+           <img src="https://images.pexels.com/photos/2565222/pexels-photo-2565222.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:auto;">
+         </picture>
+         <p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+         The browser looks for the first source element where the media query matches the user's current viewport width,
+         and fetches the image specified in the srcset attribute.</p>
+      
+         <p>The img element is required as the last child tag of the picture declaration block.
+         The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
+         </p>
+         
+         <p><strong>Note:</strong> The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier.</p>
       </body>
-    </html>
+   </html>
     ```
     
     
@@ -818,22 +818,22 @@
     Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<head>
-    			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	</head>
-    	<body>
-    			<h2>The picture Element</h2>
-    			<picture>
-    			  <source srcset="https://images.pexels.com/photos/5255232/pexels-photo-5255232.jpeg?auto=compress&cs=tinysrgb&w=600">
-    			  <source srcset="https://images.pexels.com/photos/6833459/pexels-photo-6833459.jpeg?auto=compress&cs=tinysrgb&w=600">
-    			  <img src="https://images.pexels.com/photos/6177639/pexels-photo-6177639.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Desk" style="width:auto;">
-    			</picture>
-    			<p>The picture element can be used when the image format is not supported by all devices.</p>
-    			<p>The device will use the first image format it supports, and ignore the rest of the images.</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
+      <body>
+          <h2>The picture Element</h2>
+          <picture>
+            <source srcset="https://images.pexels.com/photos/5255232/pexels-photo-5255232.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <source srcset="https://images.pexels.com/photos/6833459/pexels-photo-6833459.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <img src="https://images.pexels.com/photos/6177639/pexels-photo-6177639.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Desk" style="width:auto;">
+          </picture>
+          <p>The picture element can be used when the image format is not supported by all devices.</p>
+          <p>The device will use the first image format it supports, and ignore the rest of the images.</p>
+      </body>
+   </html>
     ```
     
  
@@ -845,16 +845,16 @@
     Html **`<figure>`** Tag এর মাধ্যমে আমরা কোন Image কে Mark করতে পারি এবং এর ভিতরে **`<figcaption>`** Tag এর মাধ্যমে আমরা  ঐ Image টার একটা Caption দিতে পারি। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    		<h1>The figure and figcaption element</h1>
-    		<figure>
-    		  <img src="flower.jpg" alt="Flower" style="width:100%">
-    		  <figcaption>Fig.1 - Flower image.</figcaption>
-    		</figure>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <body>
+         <h1>The figure and figcaption element</h1>
+         <figure>
+           <img src="flower.jpg" alt="Flower" style="width:100%">
+           <figcaption>Fig.1 - Flower image.</figcaption>
+         </figure>
+      </body>
+   </html>
     ```
     
     ***[Learn HTML \<map> and \<area> Elements Here.](https://www.w3schools.com/html/html_images_imagemap.asp)***
@@ -1255,118 +1255,118 @@
     HTML **`<colgroup>`** Element এর মাধ্যমে আমরা একটি Table এর নির্দিষ্ট Columns Style করতে পারি। প্রতিটি Group একটি **`<col>`** Element দ্বারা নির্দিষ্ট করা হয় এবং **`span`** Attribute এর মাধ্যমে কয়টি Column একসাথে Style করা হবে সেটা বলে দেওয়া যায়। **`style`** Attribute এর মাধ্যমে আমরা Column এর Style নির্দিষ্ট করে দিতে পারি। **`<colgroup>`** Element এর মধ্যে CSS Properties এর limited Selector ব্যবহার করা যায়। **`width`** Property, **`visibility`** Property, **`background`** Property, **`border`** Property. অন্যান্য CSS Property গুলো ব্যবহার করলে Table এ কোন Effect পড়বে না। Example :
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    			<h2>Colgroup Element</h2>
-    			<table border="1" style="width: 50%;">
-    				<caption> My Calander </caption>
-    				<colgroup>
-    				  <col span="4">
-    				  <col span="1" style ="background-color: #ff3322;width:150px;">
-    				</colgroup>
-    				<tr>
-    					<th>MON</th>
-    					<th>TUE</th>
-    					<th>WED</th>
-    					<th>THU</th>
-    					<th>FRI</th>
-    					<th>SAT</th>
-    					<th>SUN</th>
-    				</tr>
-    				<tr>
-    					<td>1</td>
-    					<td>2</td>
-    					<td>3</td>
-    					<td>4</td>
-    					<td>5</td>
-    					<td>6</td>
-    					<td>7</td>
-    				</tr>
-    				<tr>
-    					<td>8</td>
-    					<td>9</td>
-    					<td>10</td>
-    					<td>11</td>
-    					<td>12</td>
-    					<td>13</td>
-    					<td>14</td>
-    				</tr>
-    				<tr>
-    					<td>15</td>
-    					<td>16</td>
-    					<td>17</td>
-    					<td>18</td>
-    					<td>19</td>
-    					<td>20</td>
-    					<td>21</td>
-    				</tr>
-    				<tr>
-    					<td>22</td>
-    					<td>23</td>
-    					<td>24</td>
-    					<td>25</td>
-    					<td>26</td>
-    					<td>27</td>
-    					<td>28</td>
-    				</tr>
-    			</table>
-    			<br>
-    			<h2>Add Visibility Property </h2>
-    			<table border="1" style="width: 50%;">
-    				<caption> My Calander </caption>
-    				<colgroup>
-    				  <col span="4">
-    				  <col span="1" style ="background-color: #ff3322; visibility:collapse;">
-    				</colgroup>
-    				<tr>
-    					<th>MON</th>
-    					<th>TUE</th>
-    					<th>WED</th>
-    					<th>THU</th>
-    					<th>FRI</th>
-    					<th>SAT</th>
-    					<th>SUN</th>
-    				</tr>
-    				<tr>
-    					<td>1</td>
-    					<td>2</td>
-    					<td>3</td>
-    					<td>4</td>
-    					<td>5</td>
-    					<td>6</td>
-    					<td>7</td>
-    				</tr>
-    				<tr>
-    					<td>8</td>
-    					<td>9</td>
-    					<td>10</td>
-    					<td>11</td>
-    					<td>12</td>
-    					<td>13</td>
-    					<td>14</td>
-    				</tr>
-    				<tr>
-    					<td>15</td>
-    					<td>16</td>
-    					<td>17</td>
-    					<td>18</td>
-    					<td>19</td>
-    					<td>20</td>
-    					<td>21</td>
-    				</tr>
-    				<tr>
-    					<td>22</td>
-    					<td>23</td>
-    					<td>24</td>
-    					<td>25</td>
-    					<td>26</td>
-    					<td>27</td>
-    					<td>28</td>
-    				</tr>
-    			</table>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <body>
+          <h2>Colgroup Element</h2>
+          <table border="1" style="width: 50%;">
+           <caption> My Calander </caption>
+           <colgroup>
+             <col span="4">
+             <col span="1" style ="background-color: #ff3322;width:150px;">
+           </colgroup>
+           <tr>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+            <th>SUN</th>
+           </tr>
+           <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+           </tr>
+           <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+           </tr>
+           <tr>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+           </tr>
+           <tr>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+           </tr>
+          </table>
+          <br>
+          <h2>Add Visibility Property </h2>
+          <table border="1" style="width: 50%;">
+           <caption> My Calander </caption>
+           <colgroup>
+             <col span="4">
+             <col span="1" style ="background-color: #ff3322; visibility:collapse;">
+           </colgroup>
+           <tr>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+            <th>SUN</th>
+           </tr>
+           <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+           </tr>
+           <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+           </tr>
+           <tr>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+           </tr>
+           <tr>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+           </tr>
+          </table>
+      </body>
+   </html>
     ```
     
    
@@ -1724,23 +1724,23 @@
     **`<fieldset>`** Element ব্যবহার করা হয় Form এর মধ্যে Related Data গুলোকে Group করতে। আর **`<legend>`** Element ব্যবহার করা হয় সেই Group এর Caption Set করতে। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    			<h2>Grouping Form Data with Fieldset</h2>
-    			<p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p>
-    			<form action="#">
-    			  <fieldset>
-    			    <legend>Personal:</legend>
-    			    <label for="fname">First name:</label><br>
-    			    <input type="text" id="fname" name="fname" value="Shahidul"><br>
-    			    <label for="lname">Last name:</label><br>
-    			    <input type="text" id="lname" name="lname" value="Islam"><br><br>
-    			    <input type="submit" value="Submit">
-    			  </fieldset>
-    			</form>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+     <html>
+      <body>
+          <h2>Grouping Form Data with Fieldset</h2>
+          <p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p>
+          <form action="#">
+            <fieldset>
+              <legend>Personal:</legend>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value="Shahidul"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value="Islam"><br><br>
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+      </body>
+   </html>
     ```
     
     ### <ins>*File Input Fields*</ins> :
@@ -1844,7 +1844,7 @@
     </form>
     ```
     
-    - **`action`** Attribute এবং Form-Handler একসঙ্গে কাজ করে এবং Form Data Server এ Sending ও Processing করার জন্য সাহায্য করে। **`action`** Attribute মূলত From Data Server এ যে Location এ প্রেরণ করা হবে, তা নির্দেশ করার জন্য ব্যবহার করা হয়।
+    - **`action`** Attribute এবং Form-Handler একসঙ্গে কাজ করে এবং Form Data Server এ Sending ও Processing করার জন্য সাহায্য করে। **`action`** Attribute মূলত From Data Server এ যে Location এ প্রেরণ করা হবে, তা নির্দেশ করার জন্য ব্যবহার করা হয়।   
     
    
    > 💡 <ins>***Note***</ins> : প্রতিটি Input Field এ কিন্তু **`name`** Attribute আছে। আমরা যদি এটাকে Remove করে দিয়ে থাকি কোন কারণে তাহলে, Input Field থেকে Value কখনো পাব না।
@@ -1977,22 +1977,22 @@
     আমরা **`min`** এবং **`max`** Attribute ব্যবহার করে Date Input Field এ Minimum এবং Maximum Date নির্দিষ্ট করে দিতে পারি। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    			<h2>Date Field Restrictions</h2>
-    			<form action="#">
-    			  <label for="datemin">Enter a date after 2000-01-01:</label>
-    			  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
-    			
-    			  <label for="datemax">Enter a date before 1980-01-01:</label>
-    			  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
-    			  
-    			  <input type="submit" value="Submit">
-    			</form>
-    			<p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11.</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <body>
+          <h2>Date Field Restrictions</h2>
+          <form action="#">
+            <label for="datemin">Enter a date after 2000-01-01:</label>
+            <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+          
+            <label for="datemax">Enter a date before 1980-01-01:</label>
+            <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+            
+            <input type="submit" value="Submit">
+          </form>
+          <p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11.</p>
+      </body>
+   </html>
     ```
     
     ### <ins>***Time input fields***</ins> :
@@ -2000,18 +2000,18 @@
     **`<input type="time">`** ব্যবহার করা হয় Time Input নেওয়ার জন্য। Example :
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    		<h1>Show a Time Input Control</h1>
-    		<form action="#">
-    		  <label for="appt">Select a time:</label>
-    		  <input type="time" id="appt" name="appt">
-    		  <input type="submit" value="Submit">
-    		</form>
-    		<p><strong>Note:</strong> type="time" is not supported in Internet Explorer 11.</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <body>
+         <h1>Show a Time Input Control</h1>
+         <form action="#">
+           <label for="appt">Select a time:</label>
+           <input type="time" id="appt" name="appt">
+           <input type="submit" value="Submit">
+         </form>
+         <p><strong>Note:</strong> type="time" is not supported in Internet Explorer 11.</p>
+      </body>
+   </html>
     ```
     
     ### <ins>***Datetime-local Field***</ins> :
@@ -2019,18 +2019,18 @@
     **`<input type="datetime-local">`** ব্যবহার করা হয় Date এবং Time একসাথে Input নেওয়ার জন্য। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    		<h2>Local Date Field</h2>
-    		<form action="#">
-    		  <label for="birthdaytime">Birthday (date and time):</label>
-    		  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
-    		  <input type="submit" value="Submit">
-    		</form>
-    		<p><strong>Note:</strong> type="datetime-local" is not supported in Internet Explorer 11.</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <body>
+         <h2>Local Date Field</h2>
+         <form action="#">
+           <label for="birthdaytime">Birthday (date and time):</label>
+           <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+           <input type="submit" value="Submit">
+         </form>
+         <p><strong>Note:</strong> type="datetime-local" is not supported in Internet Explorer 11.</p>
+      </body>
+   </html>
     ```
     
     ### <ins>***Color fields***</ins> :
@@ -2040,19 +2040,19 @@
     ```html
     <!DOCTYPE html>
     <html>
-    <body>
-    
-    <h2>Show a Color Picker</h2>
-    
-    <form>
-      <label for="favcolor">Select your favorite color:</label>
-      <input type="color" id="favcolor" name="favcolor" value="#ff0000">
-      <input type="submit" value="Submit">
-    </form>
-    
-    <p><b>Note:</b> type="color" is not supported in Internet Explorer 11.</p>
-    
-    </body>
+      <body>
+      
+        <h2>Show a Color Picker</h2>
+        
+        <form>
+          <label for="favcolor">Select your favorite color:</label>
+          <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+          <input type="submit" value="Submit">
+        </form>
+        
+        <p><b>Note:</b> type="color" is not supported in Internet Explorer 11.</p>
+      
+      </body>
     </html>
     ```
     
@@ -2061,20 +2061,20 @@
     **`<input type="image">`**  ব্যবহার করা হয় Image Button হিসেবে। Example : 
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    		<h2>Display an Image as the Submit button</h2>
-    		<form action="#">
-    		  <label for="fname">First name: </label>
-    		  <input type="text" id="fname" name="fname"><br><br>
-    		  <label for="lname">Last name: </label>
-    		  <input type="text" id="lname" name="lname"><br><br>
-    		  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
-    		</form>
-    		<p><b>Note:</b> The input type="image" sends the X and Y coordinates of the click that activated the image button.</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <body>
+         <h2>Display an Image as the Submit button</h2>
+         <form action="#">
+           <label for="fname">First name: </label>
+           <input type="text" id="fname" name="fname"><br><br>
+           <label for="lname">Last name: </label>
+           <input type="text" id="lname" name="lname"><br><br>
+           <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+         </form>
+         <p><b>Note:</b> The input type="image" sends the X and Y coordinates of the click that activated the image button.</p>
+      </body>
+   </html>
     ```
     
     ### <ins>***Search input fields***</ins> :
@@ -2082,16 +2082,16 @@
     **`<input type="search">`** ব্যবহার করা হয় Search Field হিসেবে। Example : 
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    		<h2>Search Field</h2>
-    		<form action="#">
-    		  <label for="gsearch">Search Google:</label>
-    		  <input type="search" id="gsearch" name="gsearch">
-    		</form>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <body>
+         <h2>Search Field</h2>
+         <form action="#">
+           <label for="gsearch">Search Google:</label>
+           <input type="search" id="gsearch" name="gsearch">
+         </form>
+      </body>
+   </html>
     ```
     
     ### <ins>***Html Progress Element***</ins> :
@@ -2099,14 +2099,14 @@
     Html **`<progress>`** Element এর মাধ্যমে আমরা কোন একটা Task এর Progress কতটুকু হয়েছে সেটা দেখাতে পারি। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<body>
-    		<h1>The progress element</h1>
-    		<label for="file">Downloading progress:</label>
-    		<progress id="file" value="50" max="100"> </progress>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <body>
+         <h1>The progress element</h1>
+         <label for="file">Downloading progress:</label>
+         <progress id="file" value="50" max="100"> </progress>
+      </body>
+   </html>
     ```
     
     ---
@@ -2131,14 +2131,14 @@
     ```html
     <!DOCTYPE html>
     <html>
-    <head>
-      <title>A Meaningful Page Title</title>
-    </head>
-    <body>
-    
-    The content of the document......
-    
-    </body>
+      <head>
+          <title>A Meaningful Page Title</title>
+      </head>
+      <body>
+      
+         The content of the document......
+      
+      </body>
     </html>
     ```
     
@@ -2149,18 +2149,18 @@
     ```html
     <!DOCTYPE html>
     <html>
-    <head>
-      <title>Page Title</title>
-      <style>
-        body {background-color: powderblue;}
-        h1 {color: red;}
-        p {color: blue;}
-      </style>
-    </head>  
-    <body>
-      <h1>This is a Heading</h1>
-      <p>This is a paragraph.</p>
-    </body>
+      <head>
+          <title>Page Title</title>
+          <style>
+            body {background-color: powderblue;}
+            h1 {color: red;}
+            p {color: blue;}
+          </style>
+      </head>  
+      <body>
+          <h1>This is a Heading</h1>
+          <p>This is a paragraph.</p>
+      </body>
     </html>
     ```
     
@@ -2169,33 +2169,33 @@
     Html **`<link>`** Element ব্যবহার করা হয় Current File এবং External File এর মধ্যে একটা Relation করানোর জন্য। এই **`<link>`** element সবচেয়ে বেশি ব্যবহার করা হয় External CSS Stylesheet Link করাতে। Example
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<head>
-    	  <title>Page Title</title>
-    	  <link rel="stylesheet" href="./mystyle.css">
-    	</head>
-    	<body>
-    		<h1>This is a Heading</h1>
-    		<p>This is a paragraph.</p>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <head>
+          <title>Page Title</title>
+          <link rel="stylesheet" href="./mystyle.css">
+      </head>
+      <body>
+         <h1>This is a Heading</h1>
+         <p>This is a paragraph.</p>
+      </body>
+   </html>
     ```
     
     এছাড়া আমরা চাইলে **`<link>`** Element এর মাধ্যমে একটি Web Page এর HTML Favicon দিতে পারি।Favicon হচ্ছে একটি Small Image যা Display হয় Browser Tab এ Title এর পাশে। Web Page এ Favicon ব্যবহার করতে হলে Favicon Image টা Root Directory অথবা Image Folder এ রাখতে হবে। Favicon Image এর একটা Common Name থাকে, তা হলঃ “favcion.ico”. Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<head>
-    	  <title>My Page Title</title>
-    	  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
-    	</head>
-    	<body>
-    		<h1>This is a Heading</h1>
-    		<p>This is a paragraph.</p>
-    	</body>
-    </html>
+  <!DOCTYPE html>
+  <html>
+     <head>
+         <title>My Page Title</title>
+         <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+     </head>
+     <body>
+         <h1>This is a Heading</h1>
+         <p>This is a paragraph.</p>
+     </body>
+  </html>
     ```
     
     > 💡 <ins>***Note***</ins> : Favicon File Format সকল Browser Support করে থাকে।
@@ -2207,22 +2207,22 @@
     Html **`<script>`** Element ব্যবহার করা হয় Client Side JavaScript যুক্ত করার জন্য। **`<script>`** Element এর মধ্যে আমরা JavaScript Code লিখতে পারি। এছাড়া এটার মাধ্যমে আমরা চাইলে Current File এর সাথে External JavaScript File এর Relation করাতে পারি। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<head>
-    	  <title>Page Title</title>
-    	  <script>
-    		  function myFunction() {
-    		    document.getElementById("demo").innerHTML = "Hello JavaScript!";
-    		  }
-    	  </script>
-    	</head>
-    	<body>
-    		<h1>My Web Page</h1>
-    		<p id="demo">A Paragraph</p>
-    		<button type="button" onclick="myFunction()">Try it</button>
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <head>
+          <title>Page Title</title>
+          <script>
+           function myFunction() {
+             document.getElementById("demo").innerHTML = "Hello JavaScript!";
+           }
+          </script>
+      </head>
+      <body>
+          <h1>My Web Page</h1>
+          <p id="demo">A Paragraph</p>
+          <button type="button" onclick="myFunction()">Try it</button>
+      </body>
+   </html>
     ```
     
     ### <ins>***HTML Base Element***</ins> :
@@ -2230,17 +2230,16 @@
     Html **`<base>`** Element এর মাধ্যমে আমরা চাইলে একটা Page এর Base URL অথবা Target সকল Relative URL গুলো নির্দিষ্ট করে দিতে পারি। এই Element এ অব্যশই **`herf`** এবং **`target`** Attribute থাকবে। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <base href="https://www.w3schools.com/" target="_blank">
-    </head>
-    <body>
-      <h1>The base element</h1>
-      <p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
-    
-    </body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <head>
+         <base href="https://www.w3schools.com/" target="_blank">
+     </head>
+     <body>
+         <h1>The base element</h1>
+         <p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
+     </body>
+   </html>
     ```
     
     > 💡 <ins>***Note***</ins> : মাথায় রাখতে হবে, অবশ্যই একটি Document এ একটিই **`<base>`** Element থাকতে পারবে।
@@ -2281,20 +2280,20 @@
     Example :
     
     ```html
-    <!DOCTYPE html>
-    <html>
-    	<head>
-    	  <meta charset="UTF-8">
-    	  <meta name="description" content="Free Web tutorials">
-    	  <meta name="keywords" content="HTML, CSS, JavaScript">
-    	  <meta name="author" content="Shahid">
-    	  <meta name="robots" content="index, follow">
-    	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	</head>
-    	<body>
-    	    Content......
-    	</body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+      <head>
+          <meta charset="UTF-8">
+          <meta name="description" content="Free Web tutorials">
+          <meta name="keywords" content="HTML, CSS, JavaScript">
+          <meta name="author" content="Shahid">
+          <meta name="robots" content="index, follow">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
+      <body>
+          Content......
+      </body>
+   </html>
     ```
     
     ### <ins>***Setting the Viewport***</ins> :
@@ -2369,22 +2368,22 @@
     **`<header>`** Element এর মাধ্যমে একটি Document এর Header Section তৈরি করা যায়। Header অংশের মধ্যে মূলত Introductory Content, Heading Element, Logo or Icon For The Webpage, and Authorship Information এগুলো থাকে। Example :
     
     ```html
-    <!DOCTYPE html>
-    <html>
-      <head>
-           <title>HTML Head Element</title>
-      </head>
-      <body>
-          <article>
-             <header>
-                <h1>A heading here</h1>
-                <p>Posted by John Doe</p>
-    			      <p>Some additional information here</p>
-             </header>
-                <p>Lorem Ipsum dolor set amet....</p>
-          </article>
-      </body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <head>
+          <title>HTML Head Element</title>
+     </head>
+     <body>
+         <article>
+            <header>
+               <h1>A heading here</h1>
+               <p>Posted by John Doe</p>
+               <p>Some additional information here</p>
+            </header>
+            <p>Lorem Ipsum dolor set amet....</p>
+         </article>
+     </body>
+   </html>
     ```
     
     ### <ins>*HTML Nav Element*</ins> :
@@ -2417,23 +2416,23 @@
     **`<section>`** Element এমন একটি Element যার মধ্যে Web Page এর Related Element Content গুলো একসাথে Group আকারে থাকে। যেমন এটার মধ্যে থাকতে পারে text, images, tables, videos ইত্যাদি। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-      <head>
-           <title>HTML Section Element</title>
-      </head>
-      <body>
-        <section style="background-color:#ff7f50; border: 2px solid black;">
-     	    <h1>Section A</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </section>
-         <br>
-        <section style="background-color:#ff7f50; border: 2px solid black;">
-          <h1>Section B</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </section>
-     </body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <head>
+          <title>HTML Section Element</title>
+     </head>
+     <body>
+       <section style="background-color:#ff7f50; border: 2px solid black;">
+         <h1>Section A</h1>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+       </section>
+        <br>
+       <section style="background-color:#ff7f50; border: 2px solid black;">
+         <h1>Section B</h1>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+       </section>
+    </body>
+   </html>
     ```
     
     এখানে **`background-color`** , **`border`** এগুলো CSS এর Part. Section Part টা বুঝার জন্য এগুলো এখানে Use করা হয়েছে। এগুলো নিয়ে CSS Notes এ আলোচনা করা হবে।
@@ -2578,18 +2577,18 @@
     **`<time>`** Element এর মাধ্যমে আমরা Date এবং Time নির্দিষ্ট করে দিতে পারি। এটি 24 Hours Clock অনুসারে সময়ের মান এবং HTML Gregorian Calendar এর মাধ্যমে Date Display করে থাকে। Task Schedule করতে এটি খুব কাজে লাগে, এবং Search Engine এ Smart Search Result Display করতে সাহায্য করে। **`datetime`** Attribute এর মাধ্যমে আমরা Date এবং Time দিতে পারি। Example:
     
     ```html
-    <!DOCTYPE html>
-    <html>
-      <head>
-           <title>HTML Time Element</title>
-      </head>
-    <body>
-      <h1>The time element</h1>
-      <p>We open our shop at <time>09:00</time> am.</p>  
-      <p>The business meeting is scheduled on <time datetime="2009-02-18">next wednesday</time>.</p>  
-      <p>The wedding of Salman's sister was scheduled  at <time datetime="2014-11-19 T0 7:00-09:00">7pm last wednesday </time>.</p>  
-    </body>
-    </html>
+   <!DOCTYPE html>
+   <html>
+     <head>
+          <title>HTML Time Element</title>
+     </head>
+     <body>
+         <h1>The time element</h1>
+         <p>We open our shop at <time>09:00</time> am.</p>  
+         <p>The business meeting is scheduled on <time datetime="2009-02-18">next wednesday</time>.</p>  
+         <p>The wedding of Salman's sister was scheduled  at <time datetime="2014-11-19 T0 7:00-09:00">7pm last wednesday </time>.</p>  
+     </body>
+   </html>
     ```
     
     ### <ins>*HTML figure & figcaption Element*</ins> :
