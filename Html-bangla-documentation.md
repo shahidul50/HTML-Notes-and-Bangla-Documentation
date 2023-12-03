@@ -242,7 +242,7 @@
     
     ### ***HTML Page Structure:***
     
-    ![HTML Page Structure.png](document-Images/HTML-Page-Structure.png)
+    ![HTML Page Structure.png](https://github.com/shahidul50/HTML-Notes-and-Bangla-Documentation/blob/main/document-Images/HTML-Page-Structure.png)
     
     
    > 💡 <ins>***Note:***</ins> Browser এর মধ্যে শুধু **`<body>`** Element এ যা থাকবে তা প্রদর্শিত হবে। এছাড়া index.html নামে যে File থাকবে সেটাকে By Default Show করবে।
@@ -2698,11 +2698,11 @@
     
     ***সর্বাধিক ব্যবহৃত HTML Entities গুলো হলঃ***
     
-    ![HTML Entities.png](document-Images/HTML-Entities.png)
+    ![HTML Entities.png](https://github.com/shahidul50/HTML-Notes-and-Bangla-Documentation/blob/main/document-Images/HTML-Entities.png)
     
     ***নিচে কিছু Mathematical Symbols দেওয়া হল যেগুলো HTML Support করে থাকেঃ***
     
-    ![HTML Mathmatical Symbol.png](document-Images/HTML-Mathmatical-Symbol.png)
+    ![HTML Mathmatical Symbol.png](https://github.com/shahidul50/HTML-Notes-and-Bangla-Documentation/blob/main/document-Images/HTML-Mathmatical-Symbol.png)
     
 - ## *** কিছু Html Style Tips যেগুলো মেনে চলা গুরুত্বপূর্ণ। ***
     1. সবসময় Document এর প্রথমে Document Type নির্দিষ্ট করে দিতে হবে। 
