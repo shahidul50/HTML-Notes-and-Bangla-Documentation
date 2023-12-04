@@ -6,18 +6,34 @@
     <title>Image Map </title>
 </head>
 <body>
-    <!--* HTML <map> ব্যবহার করা হয় কোন Image এর মধ্যে Clickable area তৈরি করার জন্য। আর একাধিক Clickable Area তৈরি করার জন্য <area> Tag ব্যবহার করতে পারি।  -->
-    <!--? Image map তৈরি করার জন্য <img> Tag এর মধ্যে usemap Attibute ব্যবহার করতে হবে। usemap এর মানটি একটি হ্যাশ ট্যাগ(#) দিয়ে শুরু হয় যার পরে Image Map এর নাম থাকে এবং Image ও Image Map এর মধ্যে সম্পর্ক তৈরি করতে ব্যবহৃত হয়। এরপরে <map> Tag এর মধ্যে name Attibute ব্যবহার করে Map এর একটি নাম দিতে হবে।   -->
-
-     <!--* for react coords: left-margin,top, left-margin, top  -->
-     <!--* for circle coords: center of the circle(width,height), circle-radius -->
-     <!--* for poly coords: 1st coords(x,y),2nd coords(x,y) ..... -->
-    <img src="./b.png" alt="Workplace" usemap="#workmap" height="300px" width="400px">
+   <hr/>
+   <h2>Rectangle Shape Example</h2>
+   <hr/>
+    <img src="./workplace.jpg" alt="Workplace" usemap="#workmap" height="379px" width="400px"> 
 
     <map name="workmap">
-      <!-- <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-      <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"> -->
-      <area shape="circle" coords="190,300,120" alt="Coffee" href="download.html">
+         <!--* for rect coords: left-margin,top, left-margin, top  -->
+         <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html"/>
+    </map>
+
+    <hr/>
+    <h2>Circle Shape Example</h2>
+    <hr/>
+    <img src="./workplace.jpg" alt="Workplace" usemap="#workmap2" height="379px" width="400px"> 
+
+    <map name="workmap2">
+        <!--* for circle coords: center of the circle(width,height), circle-radius -->
+         <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.html"/>
+    </map>
+    
+   <hr/>
+   <h2>Polygonal Shape Example</h2>
+   <hr/>
+   <img src="./frenchfood.jpg" alt="French Food" usemap="#foodmap" width="450" height="675">
+
+    <map name="foodmap">
+         <!--* for poly coords: 1st coords(x,y),2nd coords(x,y) ..... -->
+         <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" alt="Croissant" href="croissant.htm"/>
     </map>
 </body>
 </html>

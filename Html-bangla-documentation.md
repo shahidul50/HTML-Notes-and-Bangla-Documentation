@@ -256,7 +256,7 @@
     <!DOCTYPE>
     <html>  
       <body>  
-           <b> Bold text </b> <br>  
+           <b> Bold text </b> <br/>  
            <strong> Important text </strong> 
       </body>  
     </html>
@@ -270,7 +270,7 @@
     <!DOCTYPE>
     <html>  
       <body>  
-         <i> Italic text </i> <br>
+         <i> Italic text </i> <br/>
          <em> Emphasized text</em>  
       </body>  
     </html>
@@ -523,10 +523,10 @@
      <body>
         <p>The HTML address element defines contact information (author/owner) of a document or article.</p>
         <address>
-         Written by John Doe.<br> 
-         Visit us at:<br>
-         Example.com<br>
-         Box 564, Disneyland<br>
+         Written by John Doe.<br/> 
+         Visit us at:<br/>
+         Example.com<br/>
+         Box 564, Disneyland<br/>
          USA
         </address>
      </body>
@@ -541,7 +541,7 @@
      <body>
         <p>The HTML cite element defines the title of a work.</p>
         <p>Browsers usually display cite elements in italic.</p>
-        <img src="./img_the_scream.jpg" width="220" height="277" alt="The Scream">
+        <img src="./img_the_scream.jpg" width="220" height="277" alt="The Scream"/>
         <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
      </body>
    </html>
@@ -575,7 +575,7 @@
     ```html
     <a href="url">link text</a>  
     <a> এই Tag কে মূলত Anchor Tag বলা হয়। এইটার মাধ্যমে একটা Element কে Link করা যায়। 
-    এইখানে **href** Attribute এর মাধ্যমে Link এর Destination বলে দেওয়া যায়। Example:
+    এইখানে href Attribute এর মাধ্যমে Link এর Destination বলে দেওয়া যায়। Example:
     <a href="https://www.example.com/">Visit example.com</a>
     ```
     
@@ -583,7 +583,7 @@
     
     ```html
     <a href="https://www.example.com">
-       <img src="./flower.png" alt="Flower Image" style="width:42px; height:42px;">
+       <img src="./flower.png" alt="Flower Image" style="width:42px; height:42px;"/>
     </a>
     ```
     
@@ -722,40 +722,40 @@
     HTML Web Page এ আমরা **`<img>`** Tag Use করে Image Display করতে পারি। Image যুক্ত করার মাধ্যমে আমরা Web Page এর Design Improve করতে পারি। শুধু **`<img>`** Tag এর মাধ্যমে কিন্তু আমরা Image যুক্ত করতে পারব না। Image যুক্ত করার জন্য **`<img>`** Tag এর ভিতরে **`src`** Attribute ব্যবহার করতে হবে। **`<img>`** Tag একটি Empty Tag. HTML Document এ Image যুক্ত করার Syntax:
     
     ```html
-    <img src="url" alt="alternatetext">
+    <img src="url" alt="alternatetext"/>
     ```
     
     এইখানে আমরা **`src`** Attribute এর মধ্যে আমরা যে Image টাকে যুক্ত করব তার Path টা দেখিয়ে দিতে হবে। আর **`alt`** Attribute এর মধ্যে  একটি Alternative Text দিতে হবে, যাতে কোন কারণে যদি আমাদের দেখানো Path এ Image না থাকে, থাহলে এই Text টি দেখাবে। প্রতিটি **`<img>`** Tag এ অব্যশই **`alt`** Attribute ব্যবহার করা জরুরি Best Practices হিসেবে।   Example:
     
     ```html
-    <img src="flower.jpg" alt="Flower">
+    <img src="flower.jpg" alt="Flower"/>
     ```
     
     এছাড়া **`height`**, **`width`** Attribute  অথবা **`style`** Attribute এর মাধ্যমে আমরা চাইলে Image এর দৈর্ঘ্য ও প্রস্থ নির্দিষ্ট করে দিতে পারি। Example: 
     
     ```html
     <!-- with height and width Attribute -->
-    <img src="flower.jpg" alt="Flower" width="500" height="600">
+    <img src="flower.jpg" alt="Flower" width="500" height="600"/>
     <!-- with style Attribute -->
-    <img src="flower.jpg" alt="Flower" style="width:500px;height:600px;">
+    <img src="flower.jpg" alt="Flower" style="width:500px;height:600px;"/>
     ```
     
     এছাড়া কোন Folder থেকে Image যুক্ত করতে চাইলে Path এর মধ্যে Image এর নামের আগে ” `/` ” দিয়ে Folder এর নামটা দিয়ে দিতে হবে **`src`** Attribute এর মধ্যে। মনে করি আমাদের ছবিটা images নামক একটা Folder এ আছে। তাহলে আমরা Image টা যেভাবে যুক্ত করব তা হলঃ
     
     ```html
-    <img src="/images/flower.jpg" alt="Flower">
+    <img src="/images/flower.jpg" alt="Flower"/>
     ```
     
     অনেক ক্ষেত্রে Image Server বা অন্য কোন Website থেকে Load করতে হবে। সেক্ষেত্রে ওই Website এর Image URL টা **`src`** Attribute এ দিতে হবে। Example:
     
     ```html
-    <img src="https://www.example.com/images/flower.jpg" alt="Flower">
+    <img src="https://www.example.com/images/flower.jpg" alt="Flower"/>
     ```
     
     **`(Advance Topic)`** এছাড়া আমরা যখন প্রাথমিক অবস্থায় কোন Website Browser এ Load করায় তখন এটা সম্পূর্ণ Load হয়ে থাকে A to Z। অর্থাৎ Text, Images, Videos যা থাকে Webpage এ সব একসাথে Load হয়ে যায়। এতে করে Network এবং Bandwidth বেশি খরচ হয়ে থাকে। আমরা চাইলে **`loading`** Attribute এর **`lazy`** Value এর মাধ্যমে প্রাথমিক অবস্থায় Website এ Image Load হওয়াটা Control করতে পারি। এতে করে আমাদের Network এবং Bandwidth খরচ কিছুটা কমে আসবে। **`loading`** Attribute এর **`lazy`** Value ব্যবহার করলে যেই কাজটা হবে মূলত সেটা হল, Viewport**(**একটা Device এ স্বাভাবিক অবস্থায় যতটুকু দেখা যায়**)** থেকে নির্দিষ্ট দূরত্বে না পৌঁছানো পর্যন্ত Image Load করা স্থগিত করে। যখনি আমরা Scroll করে Image এর কাছাকাছি যাব তখনি Image টা Load হবে এর আগে কিন্তু হবে না। Example:
     
     ```html
-    <img src="flower.jpg" alt="Flower" loading="lazy">
+    <img src="flower.jpg" alt="Flower" loading="lazy"/>
     ```
     
    
@@ -787,9 +787,9 @@
      <body>
          <h2>The picture Element</h2>
          <picture>
-           <source media="(min-width: 650px)" srcset="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600">
-           <source media="(min-width: 465px)" srcset="https://images.pexels.com/photos/1805053/pexels-photo-1805053.jpeg?auto=compress&cs=tinysrgb&w=600">
-           <img src="https://images.pexels.com/photos/2565222/pexels-photo-2565222.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:auto;">
+           <source media="(min-width: 650px)" srcset="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+           <source media="(min-width: 465px)" srcset="https://images.pexels.com/photos/1805053/pexels-photo-1805053.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+           <img src="https://images.pexels.com/photos/2565222/pexels-photo-2565222.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:auto;"/>
          </picture>
          <p>Resize the browser to see different versions of the picture loading at different viewport sizes.
          The browser looks for the first source element where the media query matches the user's current viewport width,
@@ -826,9 +826,9 @@
       <body>
           <h2>The picture Element</h2>
           <picture>
-            <source srcset="https://images.pexels.com/photos/5255232/pexels-photo-5255232.jpeg?auto=compress&cs=tinysrgb&w=600">
-            <source srcset="https://images.pexels.com/photos/6833459/pexels-photo-6833459.jpeg?auto=compress&cs=tinysrgb&w=600">
-            <img src="https://images.pexels.com/photos/6177639/pexels-photo-6177639.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Desk" style="width:auto;">
+            <source srcset="https://images.pexels.com/photos/5255232/pexels-photo-5255232.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+            <source srcset="https://images.pexels.com/photos/6833459/pexels-photo-6833459.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+            <img src="https://images.pexels.com/photos/6177639/pexels-photo-6177639.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Desk" style="width:auto;"/>
           </picture>
           <p>The picture element can be used when the image format is not supported by all devices.</p>
           <p>The device will use the first image format it supports, and ignore the rest of the images.</p>
@@ -850,14 +850,62 @@
       <body>
          <h1>The figure and figcaption element</h1>
          <figure>
-           <img src="flower.jpg" alt="Flower" style="width:100%">
+           <img src="flower.jpg" alt="Flower" style="width:100%"/>
            <figcaption>Fig.1 - Flower image.</figcaption>
          </figure>
       </body>
    </html>
     ```
     
-    ***[Learn HTML \<map> and \<area> Elements Here.](https://www.w3schools.com/html/html_images_imagemap.asp)***
+  ### <ins>*HTML \<map> and \<area> Elements*</ins>
+    
+    HTML **`<map>`** Element ব্যবহার করা হয় কোন Image এর মধ্যে নির্দিষ্ট অংশে Clickable Area তৈরি করার জন্য। আর একাধিক Clickable Area তৈরি করার জন্য আমরা **`<area>`** Element ব্যবহার করতে পারি। Image map তৈরি করার জন্য **`<map>`** Element এর মধ্যে **`name`** Attribute ব্যবহার করে Map এর একটি নাম দিতে হবে। সেই নামটি আমরা **`<img>`** Element এর **`usemap`** Attribute এর মধ্যে ব্যবহার করব। **`usemap`** Attribute এর মান হ্যাশ ট্যাগ(#) দিয়ে শুরু হবে, যার পরে Image Map এর Name টি লিখব। এটি Image ও Image Map এর মধ্যে সম্পর্ক তৈরি করে থাকে। এরপরে **`<map>`** এর মধ্যে **`<area>`** Element এর মাধ্যমে Area Select করে দিতে হবে। **`<area>`** Element এর মধ্যে **`shape`** Attribute এর মাধ্যমে আমরা Area এর Shape নির্দিষ্ট করে দিতে পারব। এরপরে **`coords`** Attribute এর মধ্যে Coordinate Point গুলো নির্দিষ্ট করে দিতে হবে। **`alt`** Attribute এর মাধ্যমে একটি Alternative Text দিতে পারি এবং **`href`** Attribute এর মাধ্যমে আমরা Link Address টা বলে দিতে পারি। 
+    
+    Shape Attribute এ আমরা যে মানগুলো ব্যবহার করতে পারব সেগুলো হল :
+    
+    - **rect** ⇒ এটা ব্যবহার করা হয় Rectangle Shape তৈরি করার জন্য।
+    - **circle** ⇒ এটা ব্যবহার করা হয় Circle Shape তৈরি করার জন্য।
+    - **poly**  ⇒ এটা ব্যবহার করা হয়  Polygonal Shape তৈরি করার জন্য।
+    - **default** ⇒  এটা By Default থাকে যা Map এর সম্পূর্ণ অংশকে Cover করে থাকে।
+    
+    **Rectangle Shape Area Example** : 
+    
+    ```html
+    <img src="./workplace.jpg" alt="Workplace" usemap="#workmap" height="379px" width="400px"/> 
+    
+    <map name="workmap">
+       <!--* for rect coords: left-margin,top, left-margin, top  -->
+       <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html"/>
+    </map>
+    ```
+    
+    এখানে, প্রথম দুইটি Coordinates  **`34,44`**  এর অবস্থান হচ্ছে, Left Side থেকে 34 Pixels এবং Top থেকে 44 Pixels দূরে। আর পরের দুইটি Coordinates **`270, 350`** এর অবস্থান হচ্ছে, Left Side থেকে 270 Pixels এবং Top থেকে 350 Pixels দূরে। যা একটি Rectangle Shape তৈরি করে থাকে।   
+    
+    **Circle Shape Area  Example** : 
+    
+    ```html
+    <img src="./workplace.jpg" alt="Workplace" usemap="#workmap2" height="379px" width="400px"/> 
+    
+    <map name="workmap2">
+        <!--* for circle coords: center of the circle(width,height), circle-radius -->
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.html"/>
+    </map>
+    ```
+    
+    এখানে, প্রথম দুইটি Coordinates **`337,300`** এর অবস্থান হচ্ছে Circle এর Center এ। আর এর পরে 44 Pixels হচ্ছে Circle এর Radius. যা একটি Circle তৈরি করে থাকে। 
+    
+    **Polygonal Shape Area  Example** : 
+    
+    ```html
+    <img src="./frenchfood.jpg" alt="French Food" usemap="#foodmap" width="450" height="675"/>
+    
+    <map name="foodmap">
+       <!--* for poly coords: 1st coords(x,y),2nd coords(x,y) ..... -->
+       <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" alt="Croissant" href="croissant.htm"/>
+    </map>
+    ```
+    
+    এখানে Coordinates গুলি জোড়ায়  আসে, একটি x-অক্ষের জন্য এবং একটি y-অক্ষের জন্য। সবগুলো Coordinates একসাথে মিলে একটি Polygonal  তৈরি করে থাকে। 
     
     ---
     
@@ -867,8 +915,8 @@
     
     ```html
     <video width="500" height="300" controls>
-       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.mp4" type="video/mp4">
-       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.webm" type="video/webM">
+       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.mp4" type="video/mp4"/>
+       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.webm" type="video/webM"/>
         Your browser does not support the video tag.
     </video>
     ```
@@ -895,8 +943,8 @@
     
     ```html
     <video width="500" height="300" controls autoplay muted loop>
-       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.mp4" type="video/mp4">
-       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.webm" type="video/webM">
+       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.mp4" type="video/mp4"/>
+       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.webm" type="video/webM"/>
         Your browser does not support the video tag.
     </video>
     ```
@@ -905,8 +953,8 @@
     
     ```html
     <video width="500" height="300" controls poster="./Gooldren_Duck_Poster.jpg">
-       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.mp4" type="video/mp4">
-       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.webm" type="video/webM">
+       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.mp4" type="video/mp4"/>
+       <source src="./Gordon Goose_ Weekend! _ Funny animated short film.webm" type="video/webM"/>
         Your browser does not support the video tag.
     </video>
     ```
@@ -919,8 +967,8 @@
     
     ```html
     <audio controls>
-      <source src="./small-river-in-the-forest-very-close-sound-effect.mp3" type="audio/mp3">
-      <source src="./small-river-in-the-forest-very-close-sound-effect.wav" type="audio/wav">
+      <source src="./small-river-in-the-forest-very-close-sound-effect.mp3" type="audio/mp3"/>
+      <source src="./small-river-in-the-forest-very-close-sound-effect.wav" type="audio/wav"/>
        Your browser does not support the audio element.
     </audio>
     ```
@@ -943,8 +991,8 @@
     
     ```html
     <audio controls autoplay muted loop>
-      <source src="./small-river-in-the-forest-very-close-sound-effect.mp3" type="audio/mp3">
-      <source src="./small-river-in-the-forest-very-close-sound-effect.wav" type="audio/wav">
+      <source src="./small-river-in-the-forest-very-close-sound-effect.mp3" type="audio/mp3"/>
+      <source src="./small-river-in-the-forest-very-close-sound-effect.wav" type="audio/wav"/>
        Your browser does not support the audio element.
     </audio>
     ```
@@ -1441,10 +1489,10 @@
     
     ```html
     <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" placeholder="enter your firstname"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" placeholder="enter your lastname"><br>
+      <label for="fname">First name:</label><br/>
+      <input type="text" id="fname" name="fname" placeholder="enter your firstname"/><br/>
+      <label for="lname">Last name:</label><br/>
+      <input type="text" id="lname" name="lname" placeholder="enter your lastname"/><br/>
     </form>
     ```
     
@@ -1456,10 +1504,10 @@
     
     ```html
     <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" placeholder="enter your firstname" disabled><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" placeholder="enter your lastname"><br>
+      <label for="fname">First name:</label><br/>
+      <input type="text" id="fname" name="fname" placeholder="enter your firstname" disabled/><br/>
+      <label for="lname">Last name:</label><br/>
+      <input type="text" id="lname" name="lname" placeholder="enter your lastname"/><br/>
     </form>
     ```
     
@@ -1467,10 +1515,10 @@
     
     ```html
     <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" placeholder="enter your firstname" maxLength="5"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" placeholder="enter your lastname"><br>
+      <label for="fname">First name:</label><br/>
+      <input type="text" id="fname" name="fname" placeholder="enter your firstname" maxLength="5"/><br/>
+      <label for="lname">Last name:</label><br/>
+      <input type="text" id="lname" name="lname" placeholder="enter your lastname"/><br/>
     </form>
     ```
     
@@ -1478,10 +1526,10 @@
     
     ```html
     <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="Shahidul" readonly><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname"><br>
+      <label for="fname">First name:</label><br/>
+      <input type="text" id="fname" name="fname" value="Shahidul" readonly/><br/>
+      <label for="lname">Last name:</label><br/>
+      <input type="text" id="lname" name="lname"/><br/>
     </form>
     ```
     
@@ -1489,10 +1537,10 @@
     
     ```html
     <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="Shahidul" readonly><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" size="30"><br>
+      <label for="fname">First name:</label><br/>
+      <input type="text" id="fname" name="fname" value="Shahidul" readonly/><br/>
+      <label for="lname">Last name:</label><br/>
+      <input type="text" id="lname" name="lname" size="30"/><br/>
     </form>
     ```
     
@@ -1500,11 +1548,11 @@
     
     ```html
     <form action="#">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" placeholder="enter your firstname" required><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" placeholder="enter your lastname"><br><br>
-      <input type="submit" value="Submit">
+      <label for="fname">First name:</label><br/>
+      <input type="text" id="fname" name="fname" placeholder="enter your firstname" required/><br/>
+      <label for="lname">Last name:</label><br/>
+      <input type="text" id="lname" name="lname" placeholder="enter your lastname"/><br/><br/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1512,10 +1560,10 @@
     
     ```html
     <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" autofocus><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname">
+      <label for="fname">First name:</label><br/>
+      <input type="text" id="fname" name="fname" autofocus/><br/>
+      <label for="lname">Last name:</label><br/>
+      <input type="text" id="lname" name="lname"/>
     </form>
     ```
     
@@ -1525,10 +1573,10 @@
     
     ```html
     <form>
-      <label for="username">Username:</label><br>
-      <input type="text" id="username" name="username"><br>
-      <label for="pwd">Password:</label><br>
-      <input type="password" id="pwd" name="pwd">
+      <label for="username">Username:</label><br/>
+      <input type="text" id="username" name="username"/><br/>
+      <label for="pwd">Password:</label><br/>
+      <input type="password" id="pwd" name="pwd"/>
     </form>
     ```
     
@@ -1539,8 +1587,8 @@
     ```html
     <form action="#">
       <label for="email">Enter your email:</label>
-      <input type="email" id="email" name="email">
-      <input type="submit" value="Submit">
+      <input type="email" id="email" name="email"/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1549,8 +1597,8 @@
     ```html
     <form action="#">
       <label for="email">Enter your email:</label>
-      <input type="email" id="email" name="email" multiple>
-      <input type="submit" value="Submit">
+      <input type="email" id="email" name="email" multiple/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1561,10 +1609,10 @@
     ```html
     <form>
       <label>Gender:</label>
-      <input type="radio" id="male" name="gender" value="male">
+      <input type="radio" id="male" name="gender" value="male"/>
       <label for="male">Male</label>
-      <input type="radio" id="female" name="gender" value="female">
-      <label for="female">Female</label><br>
+      <input type="radio" id="female" name="gender" value="female"/>
+      <label for="female">Female</label><br/>
     </form>
     ```
     
@@ -1573,10 +1621,10 @@
     ```html
     <form>
       <label>Gender:</label>
-      <input type="radio" id="male" name="gender" value="male" checked>
+      <input type="radio" id="male" name="gender" value="male" checked/>
       <label for="male">Male</label>
-      <input type="radio" id="female" name="gender" value="female">
-      <label for="female">Female</label><br>
+      <input type="radio" id="female" name="gender" value="female"/>
+      <label for="female">Female</label><br/>
     </form>
     ```
     
@@ -1586,12 +1634,12 @@
     
     ```html
     <form>
-      <label>Select your favourite Subjects </label><br>
-      <input type="checkbox" id="bangla" name="subject1" value="bangla">
-      <label for="bangla">Bangla</label><br>
-      <input type="checkbox" id="english" name="subject2" value="english">
-      <label for="english">English</label><br>
-      <input type="checkbox" id="math" name="subject3" value="math">
+      <label>Select your favourite Subjects </label><br/>
+      <input type="checkbox" id="bangla" name="subject1" value="bangla"/>
+      <label for="bangla">Bangla</label><br/>
+      <input type="checkbox" id="english" name="subject2" value="english"/>
+      <label for="english">English</label><br/>
+      <input type="checkbox" id="math" name="subject3" value="math"/>
       <label for="math">Math</label>
     </form>
     ```
@@ -1684,7 +1732,7 @@
     
     ```html
     <form >
-      <label for="message">Message</label><br>
+      <label for="message">Message</label><br/>
       <textarea name="message" rows="10" cols="40"> </textarea>
     </form>
     ```
@@ -1695,7 +1743,7 @@
     
     ```html
     <form >
-      <label for="message">Message</label><br>
+      <label for="message">Message</label><br/>
       <textarea name="message" style="width:300px; height:300px;"> </textarea>
     </form>
     ```
@@ -1706,7 +1754,7 @@
     
     ```html
     <form>
-      <input list="browsers" name="browser">
+      <input list="browsers" name="browser"/>
       <datalist id="browsers">
         <option value="Internet Explorer">
         <option value="Firefox">
@@ -1732,11 +1780,11 @@
           <form action="#">
             <fieldset>
               <legend>Personal:</legend>
-              <label for="fname">First name:</label><br>
-              <input type="text" id="fname" name="fname" value="Shahidul"><br>
-              <label for="lname">Last name:</label><br>
-              <input type="text" id="lname" name="lname" value="Islam"><br><br>
-              <input type="submit" value="Submit">
+              <label for="fname">First name:</label><br/>
+              <input type="text" id="fname" name="fname" value="Shahidul"/><br/>
+              <label for="lname">Last name:</label><br/>
+              <input type="text" id="lname" name="lname" value="Islam"/><br/><br/>
+              <input type="submit" value="Submit"/>
             </fieldset>
           </form>
       </body>
@@ -1750,8 +1798,8 @@
     ```html
     <form action="#">
       <label for="myfile">Select a file:</label>
-      <input type="file" id="myfile" name="myfile"><br><br>
-      <input type="submit" value="Submit">
+      <input type="file" id="myfile" name="myfile"/><br/><br/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1760,8 +1808,8 @@
     ```html
     <form action="#">
       <label for="myfile">Select Multiple files:</label>
-      <input type="file" id="myfile" name="myfile" multiple><br><br>
-      <input type="submit" value="Submit">
+      <input type="file" id="myfile" name="myfile" multiple/><br/><br/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1772,9 +1820,9 @@
     ```html
     <form action="#">
       <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname">
-      <input type="hidden" id="custId" name="custId" value="3487"><br><br>
-     <input type="submit" value="Submit">
+      <input type="text" id="fname" name="fname"/>
+      <input type="hidden" id="custId" name="custId" value="3487"/><br/><br/>
+     <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1785,8 +1833,8 @@
     ```html
     <form action="#">
       <label for="quantity">Quantity</label>
-      <input type="number" id="quantity" name="quantity">
-      <input type="submit" value="Submit">
+      <input type="number" id="quantity" name="quantity"/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1795,8 +1843,8 @@
     ```html
     <form action="#">
       <label for="quantity">Quantity (between 1 and 5):</label>
-      <input type="number" id="quantity" name="quantity" min="1" max="5">
-      <input type="submit" value="Submit">
+      <input type="number" id="quantity" name="quantity" min="1" max="5"/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1805,8 +1853,8 @@
     ```html
     <form action="#">
       <label for="quantity">Quantity:</label>
-      <input type="number" id="quantity" name="quantity" min="0" max="100" step="10">
-      <input type="submit" value="Submit">
+      <input type="number" id="quantity" name="quantity" min="0" max="100" step="10"/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1824,23 +1872,23 @@
     
     ```html
     <form action="#">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" placeholder="enter your firstname"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" placeholder="enter your lastname"><br>
+      <label for="fname">First name:</label><br/>
+      <input type="text" id="fname" name="fname" placeholder="enter your firstname"/><br/>
+      <label for="lname">Last name:</label><br/>
+      <input type="text" id="lname" name="lname" placeholder="enter your lastname"/><br>
       <label>Gender:</label>
-      <input type="radio" id="male" name="gender" value="male">
+      <input type="radio" id="male" name="gender" value="male"/>
       <label for="male">Male</label>
-      <input type="radio" id="female" name="gender" value="female">
-      <label for="female">Female</label><br>
-      <label>Select your favourite Subjects </label><br>
-      <input type="checkbox" id="bangla" name="subject1" value="bangla">
-      <label for="bangla">Bangla</label><br>
-      <input type="checkbox" id="english" name="subject2" value="english">
-      <label for="english">English</label><br>
-      <input type="checkbox" id="math" name="subject3" value="math">
-      <label for="math">Math</label><br>
-      <input type="submit" value="Submit">
+      <input type="radio" id="female" name="gender" value="female"/>
+      <label for="female">Female</label><br/>
+      <label>Select your favourite Subjects </label><br/>
+      <input type="checkbox" id="bangla" name="subject1" value="bangla"/>
+      <label for="bangla">Bangla</label><br/>
+      <input type="checkbox" id="english" name="subject2" value="english"/>
+      <label for="english">English</label><br/>
+      <input type="checkbox" id="math" name="subject3" value="math"/>
+      <label for="math">Math</label><br/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1908,12 +1956,12 @@
     
     ```html
     <form action="#">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname"><br><br>
-      <input type="submit" value="Submit">
-      <input type="reset">
+      <label for="fname">First name:</label><br/>
+      <input type="text" id="fname" name="fname"/><br/>
+      <label for="lname">Last name:</label><br/>
+      <input type="text" id="lname" name="lname"/><br/><br/>
+      <input type="submit" value="Submit"/>
+      <input type="reset"/>
     </form>
     ```
     
@@ -1923,9 +1971,9 @@
     
     ```html
     <form action="#">
-      <label for="phone">Enter a phone number:</label><br><br>
-      <input type="tel" id="phone" name="phone" value='+880' pattern="\+[0-9]{13}" required><br><br>
-      <input type="submit" value="Submit">
+      <label for="phone">Enter a phone number:</label><br/><br/>
+      <input type="tel" id="phone" name="phone" value='+880' pattern="\+[0-9]{13}" required/><br/><br/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1938,8 +1986,8 @@
     ```html
     <form action="#">
       <label for="vol">Volume (between 0 and 50):</label>
-      <input type="range" id="vol" name="vol" min="0" max="50" step="10">
-      <input type="submit" value="Submit">
+      <input type="range" id="vol" name="vol" min="0" max="50" step="10"/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1950,8 +1998,8 @@
     ```html
     <form action="#">
       <label for="fb">Add your Facebook URL:</label>
-      <input type="url" id="fb" name="fb">
-      <input type="submit" value="Submit">
+      <input type="url" id="fb" name="fb"/>
+      <input type="submit" value="Submit"/>
     </form>
     ```
     
@@ -1966,8 +2014,8 @@
     <h2>Date Field</h2>
     <form action="#">
       <label for="birthday">Birthday:</label>
-      <input type="date" id="birthday" name="birthday">
-      <input type="submit" value="Submit">
+      <input type="date" id="birthday" name="birthday"/>
+      <input type="submit" value="Submit"/>
     </form>
     <p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11.</p>
     </body>
@@ -1983,12 +2031,12 @@
           <h2>Date Field Restrictions</h2>
           <form action="#">
             <label for="datemin">Enter a date after 2000-01-01:</label>
-            <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+            <input type="date" id="datemin" name="datemin" min="2000-01-02"/><br/><br/>
           
             <label for="datemax">Enter a date before 1980-01-01:</label>
-            <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+            <input type="date" id="datemax" name="datemax" max="1979-12-31"/><br/><br/>
             
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit"/>
           </form>
           <p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11.</p>
       </body>
@@ -2006,8 +2054,8 @@
          <h1>Show a Time Input Control</h1>
          <form action="#">
            <label for="appt">Select a time:</label>
-           <input type="time" id="appt" name="appt">
-           <input type="submit" value="Submit">
+           <input type="time" id="appt" name="appt"/>
+           <input type="submit" value="Submit"/>
          </form>
          <p><strong>Note:</strong> type="time" is not supported in Internet Explorer 11.</p>
       </body>
@@ -2025,8 +2073,8 @@
          <h2>Local Date Field</h2>
          <form action="#">
            <label for="birthdaytime">Birthday (date and time):</label>
-           <input type="datetime-local" id="birthdaytime" name="birthdaytime">
-           <input type="submit" value="Submit">
+           <input type="datetime-local" id="birthdaytime" name="birthdaytime"/>
+           <input type="submit" value="Submit"/>
          </form>
          <p><strong>Note:</strong> type="datetime-local" is not supported in Internet Explorer 11.</p>
       </body>
@@ -2046,8 +2094,8 @@
         
         <form>
           <label for="favcolor">Select your favorite color:</label>
-          <input type="color" id="favcolor" name="favcolor" value="#ff0000">
-          <input type="submit" value="Submit">
+          <input type="color" id="favcolor" name="favcolor" value="#ff0000"/>
+          <input type="submit" value="Submit"/>
         </form>
         
         <p><b>Note:</b> type="color" is not supported in Internet Explorer 11.</p>
@@ -2067,10 +2115,10 @@
          <h2>Display an Image as the Submit button</h2>
          <form action="#">
            <label for="fname">First name: </label>
-           <input type="text" id="fname" name="fname"><br><br>
+           <input type="text" id="fname" name="fname"/><br/><br/>
            <label for="lname">Last name: </label>
-           <input type="text" id="lname" name="lname"><br><br>
-           <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+           <input type="text" id="lname" name="lname"/><br/><br/>
+           <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"/>
          </form>
          <p><b>Note:</b> The input type="image" sends the X and Y coordinates of the click that activated the image button.</p>
       </body>
@@ -2088,7 +2136,7 @@
          <h2>Search Field</h2>
          <form action="#">
            <label for="gsearch">Search Google:</label>
-           <input type="search" id="gsearch" name="gsearch">
+           <input type="search" id="gsearch" name="gsearch"/>
          </form>
       </body>
    </html>
@@ -2233,7 +2281,7 @@
    <!DOCTYPE html>
    <html>
      <head>
-         <base href="https://www.w3schools.com/" target="_blank">
+         <base href="https://www.w3schools.com/" target="_blank"/>
      </head>
      <body>
          <h1>The base element</h1>
@@ -2251,31 +2299,31 @@
     
     ***Define the character set used :***
     
-    > \<meta charset="UTF-8">
+    > \<meta charset="UTF-8"/>
     
     ***Define keywords for search engines :***
     
-    > \<meta name="keywords" content="HTML, CSS, JavaScript">
+    > \<meta name="keywords" content="HTML, CSS, JavaScript"/>
     
     ***Define a description of your web page :***
     
-    > \<meta name="description" content="Free Web tutorials">
+    > \<meta name="description" content="Free Web tutorials"/>
     
     ***Define the author of a page :***
     
-    > \<meta name="author" content="John Doe">
+    > \<meta name="author" content="John Doe"/>
     
     ***Refresh document every 30 seconds :***
     
-    > \<meta http-equiv="refresh" content="30">
+    > \<meta http-equiv="refresh" content="30"/>
     
     ***Setting the viewport to make your website look good on all devices :***
     
-    > \<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    > \<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     
      ***Define the Google BOT Follow or Unfollow your Content Links :***
     
-    > \<meta name="robots" content="index, follow">
+    > \<meta name="robots" content="index, follow"/>
     
     Example :
     
@@ -2283,12 +2331,12 @@
    <!DOCTYPE html>
    <html>
       <head>
-          <meta charset="UTF-8">
-          <meta name="description" content="Free Web tutorials">
-          <meta name="keywords" content="HTML, CSS, JavaScript">
-          <meta name="author" content="Shahid">
-          <meta name="robots" content="index, follow">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta charset="UTF-8"/>
+          <meta name="description" content="Free Web tutorials"/>
+          <meta name="keywords" content="HTML, CSS, JavaScript"/>
+          <meta name="author" content="Shahid"/>
+          <meta name="robots" content="index, follow"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </head>
       <body>
           Content......
@@ -2316,7 +2364,7 @@
     </head>
     <body>
         <h1>Without Viewport</h1>
-      <img src="./images/photo.jpeg" alt="Lake Image" width="500" height="350">
+      <img src="./images/photo.jpeg" alt="Lake Image" width="500" height="350"/>
       <p style="text-align:justify;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </body>
     </html>
@@ -2340,7 +2388,7 @@
     </head>
     <body>
         <h1>With Viewport</h1>
-      <img src="./images/photo.jpeg" alt="Lake Image" width="500" height="350">
+      <img src="./images/photo.jpeg" alt="Lake Image" width="500" height="350"/>
       <p style="text-align:justify;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </body>
     </html>
@@ -2789,7 +2837,7 @@
         **Bad:**
         
         ```html
-        <img src="./flower.jpg">
+        <img src="./flower.jpg"/>
         ```
     
     7. Attribute লিখার সময় Attribute name এবং এর value Equal (=) চিহ্ন এর মাধ্যমে একসাথে লিখতে হবে। এদের মাঝে ফাঁকা Space রাখা যাবে না। 
@@ -2797,13 +2845,13 @@
         **Good:**
         
         ```html
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css"/>
         ```
         
         **Bad:**
         
         ```html
-        <link rel = "stylesheet" href = "styles.css">
+        <link rel = "stylesheet" href = "styles.css"/>
         ```
     
     8. কখনো **`<title>`** Element Skip করা যাবে না। এটা Search Engine এর জন্য খুবই গুরুত্বপূর্ণ। 
@@ -2833,7 +2881,7 @@
         <!DOCTYPE html>
         <html lang="en-us">
         <head>
-          <meta charset="UTF-8">
+          <meta charset="UTF-8"/>
           <title>Page Title</title>
         </head>
         ```
