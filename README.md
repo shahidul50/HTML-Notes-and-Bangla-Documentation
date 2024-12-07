@@ -26,12 +26,12 @@
 - [চলুন জেনে নিই, Html Entities & Symbols সম্পর্কে?](#চলুন-জেনে-নিই-html-entities--symbols-সম্পর্কে)
 - [চলুন জেনে নিই, কিছু Html Style Tips যেগুলো মেনে চলা গুরুত্বপূর্ণ?](#চলুন-জেনে-নিই-কিছু-html-style-tips-যেগুলো-মেনে-চলা-গুরুত্বপূর্ণ)
 
- - ##  Html কি? 
+- ## Html কি? 
     HTML মানে **“Hyper Text Markup Language”**. HTML হল Web Pages তৈরির জন্য আদর্শ Markup Language. HTML একটি Web Page এর গঠন বর্ণনা করে। HTML উপাদানগুলি Browser কে বলে যে কীভাবে Content গুলো প্রদর্শন করতে হবে।
 
     ---
 
-- ##  Html আমরা কেন ব্যবহার করব?
+- ## Html আমরা কেন ব্যবহার করব?
     
     HTML ব্যবহার করার মূল উদ্দেশ্য হচ্ছে আমাদের Web Document গুলোকে Structure ভাবে সাজানো। কারণ HTML হল একমাত্র Web Language যা Browser বুঝতে পারে এবং HTML এর কাজ হল Web Page এর গঠন বর্ণনা করা। এছাড়া আরও কিছু Common use আছে সেগুলো হলঃ- 
     
@@ -40,7 +40,7 @@
     - Web Page এ Images এবং Videos Add করতে। ইত্যাদি।
 
     ---
-- ##  Html Tag কি? Html Tag কয় ধরণের ও কি কি?
+- ## Html Tag কি? Html Tag কয় ধরণের ও কি কি?
     
     HTML Tag হল একটি Web Page এর Keywords যা ওয়েব Browser কে Web Page টি কীভাবে Format এবং Display করতে হবে তা নির্ধারণ করে। প্রায় সব Tag এ দুটি অংশ থাকে, একটি Open Tag, এবং একটি Close Tag. Some HTML Tag: 
     
